@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+        box-sizing: border-box;
+
+}
+.juntos{
+    display: block;
+}
+
+.logo{
+    width: 180px;
+    display: inline;
+   
+}
+header{
+    background-color: #EAC926;
+   
+}
+main{
+    background-color: rgb(172, 172, 172);
+
+}
+.consejo{
+    text-align: center;
+    font-size: 0.8rem;
+    font-weight: bolder;
+    margin: 1rem;
+}
+.busqueda{
+    display: inline;
+    width: 30%;
+    margin: auto !important;
+}
+.segundo{
+    margin-top: 0.5rem !important;
+    font-size: 0.8rem;
+}
+li{
+    font-size: 0.8rem;
+    list-style-type: none;
+}
+img{
+    width: 90%;
+    display: block;
+    margin: auto !important;
+}
+h2{
+    text-align: center;
+    font-size: 1rem;
+    margin:1rem
+}
+
+section{
+    background-color: rgb(172, 172, 172);
+}
+body{
+    background-color: rgb(172, 172, 172);
+    font-size: 12px;
+
+
+}
+.productos{
+    align-items: center !important;
+    font-size: 24px;
+
+
+}
+.imagen{
+    background-color: rgb(172, 172, 172);
+   
+}
+.imagen p{
+    margin: auto !important;
+    background-color: white;
+    width: 90%;
+  
+
+
+}
+.precio{
+    font-size: 18px;
+}
+.imagen img{
+    border-bottom: 0.2px solid #666;
+}
+article{
+    margin-bottom: 0.6rem;
+}
+.descuentito{
+    color: rgb(0, 173, 14);
+    font-size: 16px;
+}
+.descript{
+    font-size: 16px;
+
+}
+.ofertas{
+    margin-top: 1rem;
+}
+footer{
+    display: block;
+    background-color: white;
+}
+footer p{
+    text-align: center;
+    display: block;
+    margin: 0.2rem;
+    font-size: 0.7rem;
+}
+.fa{
+    width: 2rem;
+    height: 21px;
+    padding: 0;
+}
+.button2 {
+    display: block;
+    width: 1.5rem;
+    margin: auto !important;
+    background-color: #1259c3;
+    color: white;
+
+}
+.burger-menu{
+    width: 1.5rem;
+    margin: auto;
+}
+.fa-bars{
+    color: white;
+    background-color: blue;
+    padding: 7px;
+    font-weight:lighter;
+    border-radius: 6px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+i{
+    color: black;
+}
+a{
+    text-decoration: none;
+
+}
+.iconitos{
+    margin-left: 46%;
+    margin-bottom: 10px;
+    color: blue;
+    font-size: 2em;
+    align-items: center;
+   
+}
+.princ{
+    font-weight: bolder;
+}

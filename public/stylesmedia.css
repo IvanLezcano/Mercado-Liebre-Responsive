@@ -1,0 +1,237 @@
+
+
+
+@media  (min-width: 500px) and (max-width: 1024px){
+
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    .juntos{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .logo{
+        display: block;
+        margin: 0 !important;
+        width: 100% !important;
+       
+    }
+    header{
+        background-color: rgb(255, 208, 0);
+       
+    }
+    main{
+        background-color: rgb(172, 172, 172);
+    
+    }
+    .consejo{
+        text-align: center;
+        font-size: 5.8rem;
+        font-weight: bolder;
+        margin: 1rem;
+    }
+    .busqueda{
+        display: block;
+        width: 95%;
+        margin: auto !important;
+    }
+    .segundo{
+        margin-top: 0.5rem !important;
+        font-size: 0.8rem;
+    }
+    li{
+        font-size: 0.8rem;
+    }
+    img{
+        width: 90%;
+        display: block;
+        margin: auto !important;
+    }
+    h2{
+        text-align: center;
+        font-size: 1rem;
+        margin:1rem
+    }
+    
+    section{
+        background-color: rgb(172, 172, 172);
+    }
+    body{
+        background-color: rgb(172, 172, 172);
+    
+    }
+    .productos{
+        align-items: center !important;
+    
+    }
+    .imagen{
+        background-color: rgb(172, 172, 172);
+       
+    }
+    .imagen p{
+        margin: auto !important;
+        background-color: white;
+        width: 90%;
+      
+    
+    
+    }
+    .imagen img{
+        border-bottom: 0.2px solid grey;
+    }
+    article{
+        margin-bottom: 0.6rem;
+    }
+    .descuentito{
+        color: rgb(0, 173, 14);
+    }
+    .ofertas{
+        margin-top: 1rem;
+    }
+    footer{
+        display: flex;
+        background-color: white;
+    }
+    footer p{
+        margin: 1rem;
+        font-size: 0.7rem;
+        text-align: center;
+    }
+    .fa{
+        width: 2rem;
+        margin-bottom: 2.5px;
+    }
+    .button2{
+        display: block;
+        width: 1.5rem;
+        margin: auto !important;
+        background-color: blue;
+        color: white;
+    
+    }
+
+}
+
+@media  (min-width: 1025px) { 
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    .juntos{
+        display: flex;
+        justify-content: flex-start;
+    }
+    
+    .logo{
+        display: block;
+        margin: 0 !important;
+        width: 30% !important;
+       
+    }
+    header{
+        background-color: rgb(255, 208, 0);
+       
+    }
+    main{
+        background-color: rgb(172, 172, 172);
+    
+    }
+    .consejo{
+        text-align: center;
+        font-size: 0.8rem;
+        font-weight: bolder;
+        margin: 1rem;
+    }
+    .busqueda{
+        display: block;
+        width: 80rem ;
+        height: 3rem;
+        margin-left: 3rem !important;
+        border-radius: 0.4rem;
+    }
+    
+    li{
+        font-size: 3rem;
+        margin-left: 20rem !important;
+    }
+    img{
+        width: 90%;
+        display: block;
+        margin: auto !important;
+    }
+    h2{
+        text-align: center;
+        font-size: 1rem;
+        margin:1rem
+    }
+    
+    section{
+        background-color: rgb(172, 172, 172);
+    }
+    body{
+        background-color: rgb(172, 172, 172);
+    
+    }
+    .productos{
+        align-items: center !important;
+    
+    }
+    .imagen{
+        background-color: rgb(172, 172, 172);
+       
+    }
+    .imagen p{
+        margin: auto !important;
+        background-color: white;
+        width: 90%;
+      
+    
+    
+    }
+    .imagen img{
+        border-bottom: 0.2px solid grey;
+    }
+    article{
+        margin-bottom: 0.6rem;
+    }
+    .descuentito{
+        color: rgb(0, 173, 14);
+    }
+    .ofertas{
+        margin-top: 1rem;
+    }
+    footer{
+        display: flex;
+        background-color: white;
+    }
+    footer p{
+        margin: 1rem;
+        font-size: 0.7rem;
+        text-align: center;
+    }
+    .fa{
+        width: 7rem;
+        height: 3rem;
+        margin-bottom: 1.5px;
+    }
+    .button2{
+        display: block;
+        width: 1.5rem;
+        margin: auto !important;
+        background-color: blue;
+        color: white;
+    
+    }
+    ul{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        text-decoration: none;
+        list-style-type: none;
+    }
+   
+
+} 
