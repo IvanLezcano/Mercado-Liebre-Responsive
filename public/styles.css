@@ -18,12 +18,6 @@ header{
     background-color: #EAC926;
    
 }
-main{
-    background-color: rgb(172, 172, 172);
-    width: 90%;
-    margin-left: 5%;
-
-}
 .consejo{
     text-align: center;
     font-size: 0.8rem;
@@ -35,7 +29,7 @@ main{
     width: 30%;
     margin: auto !important;
 }
-.segundo{
+.SegundoMenu{
     margin-top: 0.5rem !important;
     font-size: 0.8rem;
 }
@@ -43,6 +37,26 @@ li{
     font-size: 0.8rem;
     list-style-type: none;
 }
+.burger-menu{
+    width: 1.5rem;
+    margin: auto;
+}
+.fa-bars{
+    color: white;
+    background-color: blue;
+    padding: 7px;
+    font-weight:lighter;
+    border-radius: 6px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+main{
+    background-color: rgb(172, 172, 172);
+    width: 90%;
+    margin-left: 5%;
+
+}
+
 img{
     width: 100%;
     display: block;
@@ -80,11 +94,10 @@ body{
 
 
 }
-.precio{
+h4{
+    margin: auto !important;
+    background-color: white;
     font-size: 18px;
-}
-.imagen img{
-    border-bottom: 0.2px solid #666;
 }
 article{
     margin-bottom: 10px;
@@ -106,60 +119,13 @@ article{
 .ofertas{
     margin-top: 1rem;
 }
-footer{
-    display: block;
-    background-color: white;
+.precio{
+    font-size: 18px;
 }
-footer p{
-    text-align: center;
-    display: block;
-    margin: 0.2rem;
-    font-size: 0.7rem;
+.imagen img{
+    border-bottom: 0.2px solid #666;
 }
-.fa{
-    width: 2rem;
-    height: 21px;
-    padding: 0;
-}
-.button2 {
-    display: block;
-    width: 1.5rem;
-    margin: auto !important;
-    background-color: #1259c3;
-    color: white;
 
-}
-.burger-menu{
-    width: 1.5rem;
-    margin: auto;
-}
-.fa-bars{
-    color: white;
-    background-color: blue;
-    padding: 7px;
-    font-weight:lighter;
-    border-radius: 6px;
-    margin-top: 20px;
-    margin-bottom: 20px;
-}
-i{
-    color: black;
-}
-a{
-    text-decoration: none;
-
-}
-.iconitos{
-    margin-left: 46%;
-    margin-bottom: 10px;
-    color: blue;
-    font-size: 2em;
-    align-items: center;
-   
-}
-.princ{
-    font-weight: bolder;
-}
 .cajarara{
     background-color: white;
     display: block;
@@ -173,4 +139,33 @@ a{
 }
 header nav{
     display:none;
+}
+
+footer{
+    display: block;
+    background-color: white;
+    text-align: center;
+}
+footer p{
+    text-align: center;
+    display: block;
+    margin: 0.2rem;
+    font-size: 0.7rem;
+}
+i{
+    color: black;
+}
+a{
+    text-decoration: none;
+
+}
+.iconitos{
+    margin-bottom: 10px;
+    color: blue;
+    font-size: 2em;
+    align-items: center;
+   
+}
+.princ{
+    font-weight: bolder;
 }
